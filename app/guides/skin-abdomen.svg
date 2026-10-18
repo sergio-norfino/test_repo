@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 280" role="img" aria-label="Adipometer · abdomen">
+  <rect width="200" height="280" rx="18" fill="#f6efe4"/>
+  <ellipse cx="100" cy="36" rx="16" ry="18" fill="#e4c7b2" stroke="#2c211c" stroke-width="2"/>
+  <path d="M88 52c2 10 6 12 12 12s10-2 12-12" fill="none" stroke="#2c211c" stroke-width="2"/>
+  <path d="M72 78c8-14 48-14 56 0l10 58c2 16-8 28-28 28H90c-20 0-30-12-28-28z" fill="#e4c7b2" stroke="#2c211c" stroke-width="2"/>
+  <path d="M74 86c-18 8-28 28-30 48" fill="none" stroke="#2c211c" stroke-width="8" stroke-linecap="round"/>
+  <path d="M126 86c18 8 28 28 30 48" fill="none" stroke="#2c211c" stroke-width="8" stroke-linecap="round"/>
+  <path d="M90 164l-6 92" fill="none" stroke="#2c211c" stroke-width="10" stroke-linecap="round"/>
+  <path d="M110 164l6 92" fill="none" stroke="#2c211c" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="100" cy="148" r="2.2" fill="#2c211c"/>
+  <g transform="translate(132 148) rotate(8)">
+    <path d="M0 0c-10 -8 -18 -4 -22 6" fill="none" stroke="#3d4a55" stroke-width="3" stroke-linecap="round"/>
+    <path d="M0 0c-10 8 -18 4 -22 -6" fill="none" stroke="#3d4a55" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3.2" fill="#3d4a55"/>
+    <path d="M-20 -4c2 0 6 4 8 4s6-4 8-4" fill="#d4785a" stroke="#2c211c" stroke-width="1"/>
+  </g>
+  <circle cx="110" cy="148" r="7" fill="none" stroke="#c45c26" stroke-width="2.4"/><circle cx="110" cy="148" r="2.4" fill="#c45c26"/>
+  <text x="100" y="268" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#2c211c">Adipometer · abdomen</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 280" role="img" aria-label="Tape · neck">
+  <rect width="200" height="280" rx="18" fill="#f6efe4"/>
+  <ellipse cx="100" cy="36" rx="16" ry="18" fill="#e4c7b2" stroke="#2c211c" stroke-width="2"/>
+  <path d="M88 52c2 10 6 12 12 12s10-2 12-12" fill="none" stroke="#2c211c" stroke-width="2"/>
+  <path d="M72 78c8-14 48-14 56 0l10 58c2 16-8 28-28 28H90c-20 0-30-12-28-28z" fill="#e4c7b2" stroke="#2c211c" stroke-width="2"/>
+  <path d="M74 86c-18 8-28 28-30 48" fill="none" stroke="#2c211c" stroke-width="8" stroke-linecap="round"/>
+  <path d="M126 86c18 8 28 28 30 48" fill="none" stroke="#2c211c" stroke-width="8" stroke-linecap="round"/>
+  <path d="M90 164l-6 92" fill="none" stroke="#2c211c" stroke-width="10" stroke-linecap="round"/>
+  <path d="M110 164l6 92" fill="none" stroke="#2c211c" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="100" cy="148" r="2.2" fill="#2c211c"/>
+  <rect x="84" y="58" width="32" height="7" rx="2" transform="rotate(8 100 61.5)" fill="#c9a227" stroke="#2c211c" stroke-width="1"/>
+  <circle cx="100" cy="62" r="7" fill="none" stroke="#c45c26" stroke-width="2.4"/><circle cx="100" cy="62" r="2.4" fill="#c45c26"/>
+  <text x="100" y="268" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#2c211c">Tape · neck</text>
+</svg>

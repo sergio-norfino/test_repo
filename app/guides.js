@@ -1,0 +1,221 @@
+export const TAPE_SITES = [
+  {
+    id: "neck",
+    label: "Neck",
+    unit: "cm",
+    image: "guides/tape-neck.svg",
+    placement: "Just below the larynx, tape with a slight downward slope in front.",
+    steps: [
+      "Stand facing a mirror. Look forward; do not flex or stretch your neck.",
+      "Place the tape just under the Adam’s apple / larynx.",
+      "Keep it snug on skin, not compressing. Read at the front.",
+    ],
+    mistake: "Do not pull the tape tight enough to indent the skin.",
+  },
+  {
+    id: "chest",
+    label: "Chest",
+    unit: "cm",
+    image: "guides/tape-chest.svg",
+    placement: "Level tape at the nipple line / fullest part of the chest.",
+    steps: [
+      "Pass the tape behind your back with both hands, then join it in front.",
+      "Align it horizontally at the nipple line.",
+      "Breathe out normally and read in a mirror.",
+    ],
+    mistake: "Do not puff the chest or drop the tape in the back.",
+  },
+  {
+    id: "waist",
+    label: "Waist (navel)",
+    unit: "cm",
+    image: "guides/tape-waist.svg",
+    placement: "Horizontal tape at the navel.",
+    steps: [
+      "Stand relaxed, feet hip-width, belly not sucked in.",
+      "Wrap the tape level with the navel, parallel to the floor.",
+      "Exhale normally, then read at eye level.",
+    ],
+    mistake: "Do not measure over a thick waistband or after a big inhale.",
+  },
+  {
+    id: "hips",
+    label: "Hips",
+    unit: "cm",
+    image: "guides/tape-hips.svg",
+    placement: "Widest point of the buttocks, tape parallel to the floor.",
+    steps: [
+      "Stand sideways to a mirror in light clothing or underwear.",
+      "Find the widest part of the hips/buttocks and wrap the tape there.",
+      "Check in the side mirror that the tape is level front and back.",
+    ],
+    mistake: "Do not let the tape ride up in the back.",
+  },
+  {
+    id: "armRight",
+    label: "Right arm",
+    unit: "cm",
+    image: "guides/tape-arm.svg",
+    placement: "Midpoint between acromion (shoulder) and olecranon (elbow), arm hanging.",
+    steps: [
+      "Let the right arm hang relaxed at your side.",
+      "Mark the midpoint of the upper arm, then wrap the tape there.",
+      "Keep the tape level; do not flex the biceps.",
+    ],
+    mistake: "Do not measure a flexed or pumped arm.",
+  },
+  {
+    id: "armLeft",
+    label: "Left arm",
+    unit: "cm",
+    image: "guides/tape-arm.svg",
+    placement: "Same landmark as the right arm, on the left side.",
+    steps: [
+      "Let the left arm hang relaxed.",
+      "Mark the midpoint, then wrap the tape.",
+      "Use the same tension as the right arm so the two sides are comparable.",
+    ],
+    mistake: "Do not switch tension between left and right.",
+  },
+  {
+    id: "thighRight",
+    label: "Right thigh",
+    unit: "cm",
+    image: "guides/tape-thigh.svg",
+    placement: "Midpoint between inguinal crease and top of the patella.",
+    steps: [
+      "Sit on the edge of a chair or stand with weight even.",
+      "Mark mid-thigh, then wrap a level tape.",
+      "Keep the thigh muscles relaxed.",
+    ],
+    mistake: "Do not wrap at the widest part of the hip instead of mid-thigh.",
+  },
+  {
+    id: "thighLeft",
+    label: "Left thigh",
+    unit: "cm",
+    image: "guides/tape-thigh.svg",
+    placement: "Same midpoint landmark on the left thigh.",
+    steps: [
+      "Match the right-thigh mark as closely as you can.",
+      "Wrap a level tape on the relaxed thigh.",
+      "Read without cinching the tape into the muscle.",
+    ],
+    mistake: "Do not measure over tight shorts that shift the landmark.",
+  },
+];
+
+export const SKIN_SITES = [
+  {
+    id: "chest",
+    label: "Chest",
+    unit: "mm",
+    image: "guides/skin-chest.svg",
+    placement: "Diagonal fold, midway between the anterior axillary line and the nipple.",
+    steps: [
+      "Use the opposite hand to pinch a diagonal fold at the landmark.",
+      "Place the caliper jaws perpendicular to the fold, 1 cm below your fingers.",
+      "Wait about 2 seconds, read, then repeat.",
+    ],
+    mistake: "Do not pinch muscle with the skin fold.",
+  },
+  {
+    id: "midaxillary",
+    label: "Midaxillary",
+    unit: "mm",
+    image: "guides/skin-midaxillary.svg",
+    placement: "Vertical fold on the midaxillary line at xiphoid (lower sternum) level.",
+    steps: [
+      "Raise the arm and stand side-on to a mirror.",
+      "Pinch a vertical fold on the mid-side of the ribcage.",
+      "Apply the caliper with the other hand. Skip if you cannot see or feel the site.",
+    ],
+    mistake: "Do not guess this site without a mirror — skip it instead.",
+  },
+  {
+    id: "triceps",
+    label: "Triceps",
+    unit: "mm",
+    image: "guides/skin-triceps.svg",
+    placement: "Vertical fold on the back of the arm, midline, mid acromion–olecranon.",
+    steps: [
+      "Let the arm hang relaxed. Mark the midpoint of the back of the arm.",
+      "Pinch a vertical fold with the opposite hand.",
+      "Place the caliper jaws on the fold; keep the arm unflexed.",
+    ],
+    mistake: "Do not measure with the elbow bent or the muscle tensed.",
+  },
+  {
+    id: "subscapular",
+    label: "Subscapular",
+    unit: "mm",
+    image: "guides/skin-subscapular.svg",
+    placement: "Diagonal fold 1–2 cm below the inferior angle of the scapula.",
+    steps: [
+      "Stand with your back to a wall mirror, or use a second mirror.",
+      "Reach the opposite hand behind to pinch just below the shoulder blade.",
+      "If you cannot place the fold reliably, skip rather than invent a number.",
+    ],
+    mistake: "Do not place the fold too far out on the side of the ribs.",
+  },
+  {
+    id: "abdomen",
+    label: "Abdomen",
+    unit: "mm",
+    image: "guides/skin-abdomen.svg",
+    placement: "Vertical fold 2 cm to the right of the navel.",
+    steps: [
+      "Stand relaxed; do not suck the belly in.",
+      "Pinch a vertical fold 2 cm right of the navel.",
+      "Caliper perpendicular to the fold; wait 2 seconds to read.",
+    ],
+    mistake: "Do not pinch too close to the navel or on a tense abdomen.",
+  },
+  {
+    id: "suprailiac",
+    label: "Suprailiac",
+    unit: "mm",
+    image: "guides/skin-suprailiac.svg",
+    placement: "Diagonal fold just above the iliac crest on the anterior axillary line.",
+    steps: [
+      "Find the top of the hip bone at the side-front of the waist.",
+      "Slightly lean to the opposite side to free a fold, then pinch diagonally.",
+      "Place the caliper on the fold above the crest.",
+    ],
+    mistake: "Do not drop the fold onto the bony crest itself.",
+  },
+  {
+    id: "thigh",
+    label: "Thigh",
+    unit: "mm",
+    image: "guides/skin-thigh.svg",
+    placement: "Vertical fold, anterior midline, midway hip to knee.",
+    steps: [
+      "Sit on the edge of a chair with the thigh relaxed.",
+      "Pinch a vertical fold on the front of the mid-thigh.",
+      "Apply the caliper; keep sitting so the muscle stays soft.",
+    ],
+    mistake: "Do not measure a standing, weight-bearing thigh if you can sit.",
+  },
+];
+
+export const TAPE_INTRO = {
+  title: "Tape — general technique",
+  image: "guides/map-front.svg",
+  points: [
+    "Stand relaxed, weight even on both feet. Keep the tape horizontal (except neck).",
+    "Snug to skin, not compressing soft tissue. Exhale normally before waist or chest.",
+    "Read the tape at eye level. Use the same side and landmarks every session.",
+  ],
+};
+
+export const SKIN_INTRO = {
+  title: "Adipometer — general technique",
+  image: "guides/map-front.svg",
+  points: [
+    "Pinch a double fold of skin + fat ~1 cm above the marked site. Do not include muscle.",
+    "Jaws perpendicular to the fold, midway between crest and base. Hold the pinch until you read.",
+    "Wait ~2 seconds, read, release. If two readings differ by more than 2 mm, take a third and average the closest pair.",
+    "Subscapular and midaxillary are hard alone: use a mirror, rotate slightly, or skip.",
+  ],
+};
